@@ -1,0 +1,146 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.app-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 700px;
+  padding: 20px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.top-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.kitap-karti {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kitap-karti h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.kitap-karti p {
+  margin: 3px 0 0;
+  font-size: 13px;
+  color: #555;
+}
+
+button {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+button span {
+  font-size: 15px;
+}
+
+.btn-favoride {
+  background-color: #f7c948;
+  color: #000;
+  font-weight: 500;
+}
+
+.btn-favoride:hover {
+  background-color: #f5b500;
+}
+
+.btn-ekle {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.btn-ekle:hover {
+  background-color: #ddd;
+}
+
+.favori-paneli {
+  width: 230px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #fdfdfd;
+}
+
+.favori-paneli h2 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.favori-paneli ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.favori-paneli li {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.favori-paneli button {
+  background: none;
+  border: none;
+  color: #d00;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.favori-paneli button:hover {
+  text-decoration: underline;
+
+}
