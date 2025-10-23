@@ -4,7 +4,7 @@ Bu proje, React kullanılarak geliştirilmiş bir dijital kitaplık uygulamasıd
 
 ## 🌐 Canlı Demo
 
-Uygulamayı denemek için: [Kitaplık Uygulaması](https://kitaplik-odev.vercel.app/)
+Uygulamayı denemek için: [Kitaplık Uygulaması (https://kitaplik-odev.vercel.app/)](https://kitaplik-odev.vercel.app/)
 
 ## 🚀 Özellikler
 
