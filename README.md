@@ -1,16 +1,63 @@
-# React + Vite
+# 📚 Kitaplık Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React kullanılarak geliştirilmiş bir dijital kitaplık uygulamasıdır. Kullanıcılar kitapları kategorilere göre filtreleyebilir, arama yapabilir ve favori kitaplarını yönetebilirler.
 
-Currently, two official plugins are available:
+## 🌐 Canlı Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Uygulamayı denemek için: [Kitaplık Uygulaması](https://kitaplik-odev.vercel.app/)
 
-## React Compiler
+## 🚀 Özellikler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📑 Kategori bazlı kitap filtreleme (Tümü, Web, CS, Tasarım)
+- 🔍 Kitap arama özelliği
+- ❤️ Favori kitapları kaydetme ve yönetme
+- 📱 Responsive tasarım
 
-## Expanding the ESLint configuration
+## 🛠️ Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- CSS
+- ESLint
+
+## 🔧 Kurulum
+
+Projeyi yerel ortamınızda çalıştırmak için:
+
+1. Repoyu klonlayın
+```bash
+git clone https://github.com/furkann-sahin/KitaplikOdev.git
+```
+
+2. Proje dizinine gidin
+```bash
+cd KitaplikOdev
+```
+
+3. Bağımlılıkları yükleyin
+```bash
+npm install
+```
+
+4. Uygulamayı başlatın
+```bash
+npm run dev
+```
+
+## 📁 Proje Yapısı
+
+```
+src/
+├── assets/         # Resimler ve diğer statik dosyalar
+├── App.jsx         # Ana uygulama bileşeni
+├── AramaCubugu.jsx # Arama çubuğu bileşeni
+├── FavoriPaneli.jsx # Favori kitaplar paneli
+├── KategoriFiltre.jsx # Kategori filtreleme bileşeni
+├── KitapKarti.jsx    # Kitap kartı bileşeni
+├── KitapListe.jsx    # Kitap listesi bileşeni
+└── main.jsx        # Uygulama giriş noktası
+```
+
+## 📝 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
